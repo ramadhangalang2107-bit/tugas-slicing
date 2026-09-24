@@ -22,13 +22,15 @@ Website portofolio personal yang responsif, interaktif, dan dibangun murni mengg
 
 ---
 
-## Screenshots Website
+## Screenshots & Link Website
 
 * **Desktop**:
   ![Desktop](https://github.com/ramadhangalang2107-bit/tugas-slicing/blob/main/Screenshot/Desktop.png)
   
 * **Mobile**:
   ![Mobile](https://github.com/ramadhangalang2107-bit/tugas-slicing/blob/main/Screenshot/Mobile.jpeg)
+
+* **Link**: https://tugas-slicing-theta.vercel.app/
 
 ---
 
