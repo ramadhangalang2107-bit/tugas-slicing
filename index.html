@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio - Slicing Website</title>
+    <link rel="stylesheet" href="praktikum.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header class="navbar">
+        <div class="logo">GAM<span>PRIDE</span></div>
+        <nav class="nav-links" id="navLinks">
+            <a href="#home">Beranda</a>
+            <a href="#about">Tentang</a>
+            <a href="#projects">Proyek</a>
+            <a href="#contact">Kontak</a>
+        </nav>
+        <div class="nav-actions">
+            <button id="themeToggle" class="btn-icon" title="Ubah Mode">🌙</button>
+            <button id="hamburger" class="hamburger" aria-label="Menu">☰</button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Halo, Saya <span class="highlight">Galang Asli Aceh</span></h1>
+                <p>Membangun antarmuka web modern, responsif, dan interaktif dengan Plain HTML, CSS, & JS.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">Lihat Proyek</a>
+                    <a href="#contact" class="btn btn-outline">Hubungi Saya</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <h2>Tentang Saya</h2>
+            <p>Saya berfokus pada prompt engineer .</p>
+            <div class="skills">
+                <span class="skill-tag">HTML5</span>
+                <span class="skill-tag">Plain CSS3</span>
+                <span class="skill-tag">JavaScript DOM</span>
+                <span class="skill-tag">Responsive Design</span>
+            </div>
+        </section>
+
+        <!-- Projects Section (Interaktif dengan Filter JS) -->
+        <section id="projects" class="projects">
+            <h2>Proyek Slicing</h2>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">Semua</button>
+                <button class="filter-btn" data-filter="landing">Landing Page</button>
+                <button class="filter-btn" data-filter="dashboard">Dashboard</button>
+            </div>
+            <div class="project-grid">
+                <div class="project-card" data-category="landing">
+                    <div class="card-body">
+                        <h3>Landing Page Product</h3>
+                        <p>Slicing tampilan landing page responsif dengan struktur CSS Grid & Flexbox.</p>
+                        <span class="tag">Plain CSS</span>
+                    </div>
+                </div>
+                <div class="project-card" data-category="dashboard">
+                    <div class="card-body">
+                        <h3>Dashboard UI</h3>
+                        <p>Antarmuka dashboard dengan fitur ganti tema gelap/terang secara dinamis.</p>
+                        <span class="tag">JavaScript DOM</span>
+                    </div>
+                </div>
+                <div class="project-card" data-category="landing">
+                    <div class="card-body">
+                        <h3>Gojek Clone Mobile UI</h3>
+                        <p>Adaptasi tampilan mobile-first untuk layanan transportasi dan antar makanan.</p>
+                        <span class="tag">Responsive</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section (Validasi DOM) -->
+        <section id="contact" class="contact">
+            <h2>Hubungi Saya</h2>
+            <form id="contactForm" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Nama Lengkap</label>
+                    <input type="text" id="name" required placeholder="Masukkan nama Anda">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required placeholder="nama@email.com">
+                </div>
+                <div class="form-group">
+                    <label for="message">Pesan</label>
+                    <textarea id="message" rows="4" required placeholder="Tulis pesan Anda..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+                <p id="formStatus" class="form-status"></p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 GAM. Dibuat tanpa *framework* CSS.</p>
+    </footer>
+
+    <script src="praktikum.js"></script>
+</body>
+</html>
