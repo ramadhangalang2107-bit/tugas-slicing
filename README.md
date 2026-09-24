@@ -25,10 +25,10 @@ Website portofolio personal yang responsif, interaktif, dan dibangun murni mengg
 ## Screenshots Website
 
 * **Desktop**:
-  ![Desktop](Desktop.png)
+  ![Desktop](https://github.com/ramadhangalang2107-bit/tugas-slicing/blob/main/Screenshot/Desktop.png)
   
 * **Mobile**:
-  ![Mobile](Mobile.jpeg)
+  ![Mobile](https://github.com/ramadhangalang2107-bit/tugas-slicing/blob/main/Screenshot/Mobile.jpeg)
 
 ---
 
